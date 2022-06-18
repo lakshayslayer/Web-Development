@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Exercise</title>
+    <link rel="stylesheet" href="tutorial 4.css">
+</head>
+<body>
+    <h1>Selector Exercise</h1>
+    <p>Paragraph not inside a div</p>
+
+    <div>
+        <p class="class">I am a paragraph with a class</p>
+        <p id="special">I am a paragraph with an ID</p>
+
+        <h2>I am a h2 heading</h2>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quisquam suscipit minima, itaque numquam provident commodi beatae laudantium ab, perferendis aut tenetur sint sunt atque, assumenda porro? Deleniti, aspernatur dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus. Delectus natus nisi veniam impedit labore distinctio facilis dolore dolorum, accusantium odit ipsum possimus reiciendis veritatis ad necessitatibus placeat omnis.</p>
+    </div>
+
+    <div>
+        <h2>Things I need to do</h2>
+
+        <ul>
+            <li>Meditation <input type="checkbox"></li>
+            <li>Running    <input type="checkbox"></li>
+            <li>Yoga       <input type="checkbox"></li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>I am also h2 heading</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi autem, sit nulla quidem facere maiores asperiores qui natus voluptas dolores cumque. Cum perferendis dolore ratione officiis at perspiciatis deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi iusto eum molestiae eos. Quisquam accusantium illum porro pariatur veniam? Voluptatem cum distinctio rem. Perspiciatis quod natus vitae minima, repellendus asperiores!</p>
+
+        <p>second para in this div</p>
+    </div>
+
+    <p>I AM NOT IN ANY DIV I AM ALONE</p>
+
+    <div>
+        <h2>A less awesome h2 heading</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad voluptatibus officia repudiandae fugiat, doloribus mollitia explicabo. Sint distinctio, mollitia officia, neque quas velit delectus veniam fuga, fugiat molestiae omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima repellat consectetur animi voluptate adipisci tempore praesentium recusandae ducimus ut in minus asperiores, odit facere, dolores at, voluptates itaque impedit mollitia?</p>
+        <p>One last paragraph here!</p>
+
+        <a href="http://www.facebook.com">I am a link to facebook</a>
+        <a href="http://www.facebook.com">I am an another link to facebook</a>
+        <br>
+
+        <input type="text" name="name" placeholder="Name"/> <label>Name</label> <br>
+        <input type="password" name="password" placeholder="Password"/><label>Password</label>
+
+    </div>
+
+    <p>PARAGRAPH NOT INSIDE THE DIV</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background: #7aa3cc;
+}
+
+h1{
+    color: #9b59b6;
+}
+h2{
+    color: rgb(255, 157, 0);
+}
+
+li{
+    color: rgb(54, 108, 173)
+}
+
+p{
+    background: rgb(243, 243, 141);
+}
+
+input{
+    border: 3px solid red;
+}
+
+.class{
+    background: white;
+}
+#special{
+    border: 2px solid blue;
+}
+div p{
+    font-size: 25px;
+}
+
+input[type="text"]{
+    background: rgb(198, 198, 198);
+}
+
+div:nth-of-type(3){
+    background-color: pink;
+}
+div p:nth-of-type(2){
+    border: 5px solid white;
+}
+
+div em{
+    color : white;
+    font-size: 20px;
+}
+
+input[type=checkbox]{
+    margin-left: 50px ;
+}
+
+label{
+    text-transform: capitalize;
+}
+
+p+#special::first-letter{
+    font-size: 100px;
+    color: green;
+}
+
+h1:hover{
+    color: blue;
+}
+a:visited{
+    color: grey;
+}
+
+/* 
+
+body {
+	color: #bdc3c7;
+}
+
+
+h1 {
+	color: #9b59b6;
+}
+
+h2 {
+	color: orange;
+}
+
+li {
+	color: #13c9fb;
+}
+
+p {
+	background-color: yellow;
+}
+
+input {
+	border: 3px solid red;
+}
+
+.hello {
+	background-color: white;
+}
+
+#special {
+	border: 2px solid rgb(43, 15, 169);
+}
+
+div p {
+	font-size: 25px;
+}
+
+input[type=text] {
+	background-color: gray;
+}
+
+div:nth-of-type(3) {
+	background-color: pink;
+}
+
+div p:nth-of-type(2) {
+	border: 5px solid white;
+}
+
+div em {
+	color: white;
+	font-size: 20px;
+}
+
+
+
+input[type=checkbox] {
+	margin-left: 50px;
+}
+
+label {
+	text-transform: uppercase;
+}
+
+p + #special::first-letter {
+	color: green;
+	font-size: 100px;
+}
+
+h1:hover {
+	color: blue;
+}
+
+a:visited {
+	color: gray;
+} */
+
+
+
+
+
+
+
+
+
