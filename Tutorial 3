@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>RegisterForm</title>
+ </head>
+ <body bgcolor="lightyellow">
+ 
+     <h1>Register</h1>
+
+     <form action="http://www.wikipedia.org">
+
+         <label for="first " >First Name:</label>
+         <input name="First" id="first " type="text" placeholder="Sanskar" required> 
+         <label for="last ">Last Name:</label>
+         <input name="Last" id="last " type="text" placeholder="Bander" required><br><br>
+
+        <label for="Male">Male</label>
+        <input name="gender?" id="Male" type="radio" value="MALE">
+        <label for="Female">Female</label>
+        <input name="gender?" id="Female" type="radio" value="FEMALE">
+        <label for="Other">Other</label>
+        <input name="gender?" id="Other" type="radio" value="OTHER"> <br><br>
+
+        <label for="email">Email:</label>
+        <input name="email" id="email"  type="email" placeholder="Email ID" required>
+        <label for="password">Pasword:</label>
+        <input name="password" id="password"  type="password" placeholder="Password" minlength="5" maxlength="10" required><br><br>
+        
+        <label >Birthday:</label>
+        <select name="Month" id="Month"  required> 
+            <option value="" disabled selected hidden>Day</option>
+            <option value="1">jan</option>
+            <option value="2">feb</option>
+            <option value="3">march</option>
+            <option value="4">april</option>
+            <option value="5">may</option>
+        </select>
+        <select name="Day" id="Day" required >
+            <option value="" disabled selected hidden>Month</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <select name="year" id="year" required >
+            <option value="" disabled selected hidden>Year</option>
+            <option value="1">1990-</option>
+            <option value="2">1990-2000</option>
+            <option value="3">2001-2005</option>
+            <option value="4">2006-20010</option>
+            <option value="5">2011-20015</option>
+        </select><br><br>
+
+        <label >I agree to terms and condition</label> 
+        <input type="checkbox" required> 
+        
+        <br><br>
+        <button>Submit</button>
+        
+     </form>
+ </body>
+ </html>
