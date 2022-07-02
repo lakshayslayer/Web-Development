@@ -1,0 +1,41 @@
+HTML CODE
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="photographer.css">
+</head>
+<body>
+    <div id="one"><strong>Hello</strong></div>
+ 
+    <img src="https://picsum.photos/160" >
+    <img src="https://picsum.photos/120" >
+    <img src="https://picsum.photos/110" >
+    <img src="https://picsum.photos/300" >
+    <img src="https://picsum.photos/400" >
+    <img src="https://picsum.photos/200" >
+    <img src="https://picsum.photos/100" >
+    <img src="https://picsum.photos/310" >
+    <img src="https://picsum.photos/410" >
+
+    <div id="two"><strong>GoodBye</strong></div>
+
+</body>
+</html>
+
+
+
+
+CSS CODE
+
+img{
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    
+}
